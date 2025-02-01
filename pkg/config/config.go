@@ -9,8 +9,8 @@ import (
 var runtimeConfig *MallRuntimeConfig
 
 const (
-	EnvMallCoreConfigDir     = "Mall_CORE_CONFIG_DIR"
-	DefaultMallCoreConfigDir = ""
+	EnvMallCoreConfigDir     = "MALL_CORE_CONFIG_DIR"
+	DefaultMallCoreConfigDir = "conf/"
 )
 
 type MySQLConfig struct {
